@@ -27,6 +27,7 @@ a {
             rgba(155, 2, 87, 1) 100%);
     ;
     --gold-color: rgb(253, 188, 1);
+    --gold-color-lite: rgba(253, 188, 1, 0.25);
     --background-text: rgba(243, 243, 243, 1);
     --back-icon: rgba(112, 112, 112, 40%);
 }
@@ -49,6 +50,14 @@ a {
 
 .bg-gold {
     background-color: var(--gold-color);
+}
+
+.text-gold-lite {
+    color: var(--gold-color-lite);
+}
+
+.bg-gold-lite {
+    background-color: var(--gold-color-lite);
 }
 
 .bg-text {
