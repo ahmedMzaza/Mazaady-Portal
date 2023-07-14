@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+:root {
+    --main-color: rgba(210, 6, 83, 1);
+    --second-color: rgb(68, 33, 93);
+    --bg-second-color: rgba(68, 33, 93, 10%);
+    --background-gradient: linear-gradient(90deg,
+            rgba(210, 6, 83, 1) 0%,
+            rgba(155, 2, 87, 1) 100%);
+    ;
+    --gold-color: rgb(253, 188, 1);
+    --background-text: rgba(243, 243, 243, 1);
+    --back-icon: rgba(112, 112, 112, 40%);
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+}
+
+.text-Cmain {
+    color: var(--main-color);
+}
+
+.bg-gradient {
+    background-image: var(--background-gradient);
+}
+
+.text-gold {
+    color: var(--gold-color);
+}
+
+.bg-gold {
+    background-color: var(--gold-color);
+}
+
+.bg-text {
+    background-color: var(--background-text);
+}
+
+.text-text {
+    color: var(--background-text);
+}
+
+.text-sec {
+    color: var(--second-color);
+}
+
+.bg-sec {
+    background-color: var(--second-color);
+}
+
+.bg-Csec {
+    background-color: var(--bg-second-color);
+}
+
+.bg-icon {
+    background-color: var(--back-icon);
+}
